@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="flex flexColumn">
+        <header class="h20 flex bgBlack flex-align-center horizontal-padding5px gap">
+            <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center white">
+                <p>VS</p>
+            </div>
+            <div class="no-bgcolor white-border circle h40px w40px flex flex-align-center justify-content-center white">
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="grayBgColor rounded-border h30 flex flex-align-center w20">
+                <i class="fa fa-search center horizontal-padding5px"></i>
+                <input class="no-border no-bgcolor no-outline white center" type="text" placeholder="Search, meet, and call" value="Search, meet, and call">
+            </div>
+            <button class="white center rounded-border no-bgcolor h30 w5 white-border" type="submit">Cancel</button>
+        </header>
+        <div class="flex flexRow">
+            <div class="flex-space-between h80vh flex flexColumn bgDarkBlue w20 padding25px">
+                <div class="flex flexColumn flex-align-top">
+                    <div class="flex flexRow white gap ">
+                        <i class="fa fa-user"></i>
+                        <a class="no-text-decoration white" href="#">Contacts</a>
+                    </div><br>
+                    <div class="flex flexRow white gap">
+                        <i class="fa fa-phone"></i>
+                        <a class="no-text-decoration white" href="#">Calling</a>
+                    </div><br>
+                    <div class="flex flexRow white gap">
+                        <i class="fa fa-calendar"></i>
+                        <a class="no-text-decoration white" href="#">Meetings</a>
+                    </div><br>
+                    <div class="flex flexRow white gap">
+                        <i class="fa fa-code-fork"></i>
+                        <a class="no-text-decoration white" href="#">Personal Insights</a>
+                    </div>
+                </div>
+                <div class="flex flexColumn flex-align-bottom">
+                    <div class="flex flexRow white ">
+                        <i class="fa fa-cogs"></i>&nbsp;&nbsp;
+                        <a class="no-text-decoration white" href="#">Settings</a>
+                    </div><br>
+                    <div class="flex flexRow white ">
+                        <i class="fa fa-question-circle"></i>&nbsp;&nbsp;
+                        <a class="no-text-decoration white" href="#">Help</a>
+                    </div><br>
+                </div>
+            </div>
+            <div class="padding25px h100vh blackgrayBgColor white w100vw">
+                <h1 class="white">Meetings</h1>
+                <div class="flex flexRow gap">
+                    <i class="fa fa-laptop"></i>
+                    <p><a class="graywhite no-text-decoration" href="#">https://cb.webex.com/meet/vibha.sengar</a></p>
+                    <i class="fa fa-files-o"></i>
+                </div>
+                <div class="flex flexRow flex-space-evenly  padding25px ">
+                    <div class="flex flexColumn white flex-align-center gap">
+                        <div class="w50px h50px greenBgColor white flex flex-align-center circle justify-content-center">
+                            <i class="fa fa-lg fa-video-camera"></i>
+                        </div>
+                        <div class="center">
+                            Start a Personal Room <br>Meeting
+                        </div>
+                    </div>
+                    <div class="flex flexColumn white flex-align-center gap">
+                        <div class="w50px h50px greenBgColor white flex flex-align-center circle justify-content-center">
+                            <i class="fa fa-lg fa-sign-in"></i>
+                        </div>
+                        <div class="center">
+                            Join Meeting
+                        </div>
+                    </div>
+                    <div class="flex flexColumn white flex-align-center gap">
+                        <div class="w50px h50px white-border white flex flex-align-center circle justify-content-center">
+                            <i class="fa fa-lg fa-calendar-plus-o"></i>
+                        </div>
+                        <div class="center">
+                            <select class="no-bgcolor white no-border no-outline" name="Meeting">
+                                <option>Schedule a meeting</option>
+                                <option>Schedule a webinar</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flexRow grayBgColor rounded-border h30 flex-space-between">
+                    <div class="flex flexRow gap flex-align-center horizontal-padding10px">
+                        <a href="#" class="no-text-decoration white">Calendar</a>
+                        <a href="#" class="no-text-decoration white">Meeting recap</a>
+                    </div>
+                    <div class="flex flexRow gap flex-align-center horizontal-padding10px">
+                        <div class="flex rounded-border flexRow">
+                            <button class="no-bgcolor gray-border white h25 w50px border-top-left border-bottom-left"><i class="fa fa-lg fa-angle-left"></i></button>
+                            <button class="no-bgcolor gray-border white h25 w150px">Mon, 05-02-2024</button>
+                            <button class="no-bgcolor gray-border white h25 w50px border-top-right border-bottom-right"><i class="fa fa-lg fa-angle-right"></i></button>
+                        </div>
+                        <button class="no-bgcolor gray-border white rounded-border h25 w50px" type="submit">Today</button>
+                        <select class="no-bgcolor white gray-border rounded-border h25 w80px" name="list">
+                            <option>List</option>
+                            <option>Day</option>
+                            <option>Work Week</option>
+                            <option>Week</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flexColumn padding-top-25px margin-top-20px overflow hdiv scroll">
+                    <h3>29 January 2024</h3>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>S</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">CHUBB - GUVI: Angular Training Program </p>
+                            <p class="graywhite font-size-14px">10:30 - 13:00</p>
+                        </div>
+                    </div>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>LM</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">Leadership Management Program </p>
+                            <p class="graywhite font-size-14px">14:00 - 15:00</p>
+                        </div>
+                    </div>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>AN</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">Angular Training Program </p>
+                            <p class="graywhite font-size-14px">15:00 - 16:30</p>
+                        </div>
+                    </div>
+                    <h3 class="margin-top-20px">30 January 2024</h3>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>S</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">CHUBB - GUVI: Angular Training Program </p>
+                            <p class="graywhite font-size-14px">10:30 - 13:00</p>
+                        </div>
+                    </div>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>LM</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">Leadership Management Program </p>
+                            <p class="graywhite font-size-14px">14:00 - 15:00</p>
+                        </div>
+                    </div>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>AN</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">Angular Training Program </p>
+                            <p class="graywhite font-size-14px">15:00 - 16:30</p>
+                        </div>
+                    </div>
+                    <div class="grayBgColor flex flexRow flex-align-center gap padding-10px margin-top-10px rounded-border">
+                        <div class="darkgraybgcolor circle h40px w40px flex flex-align-center justify-content-center">
+                            <p>PM</p>
+                        </div>
+                        <div class="flex flexColumn">
+                            <p class="graywhite">Project Management Program </p>
+                            <p class="graywhite font-size-14px">17:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </div>  
+</body>
+</html>
